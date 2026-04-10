@@ -51,7 +51,7 @@
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
-
+ 
   /* LAYOUT */
   .topbar {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -129,7 +129,7 @@
     color: var(--accent);
     cursor: pointer;
   }
-
+ 
   .sidebar {
     position: fixed;
     top: var(--top-h); left: 0; bottom: 0;
@@ -185,7 +185,7 @@
     color: var(--accent);
   }
   .sidebar-spacer { flex: 1; }
-
+ 
   .main {
     position: fixed;
     top: var(--top-h);
@@ -196,7 +196,7 @@
     padding: 24px 24px;
     display: flex; flex-direction: column; gap: 20px;
   }
-
+ 
   .right-panel {
     position: fixed;
     top: var(--top-h);
@@ -212,7 +212,7 @@
     padding: 16px;
     display: flex; flex-direction: column; gap: 12px;
   }
-
+ 
   /* CARDS */
   .card {
     background: var(--bg2);
@@ -226,7 +226,7 @@
     border-radius: var(--r);
     padding: 12px 14px;
   }
-
+ 
   /* STATS ROW */
   .stats-row {
     display: grid;
@@ -255,7 +255,7 @@
   .stat-green .stat-val { color: var(--green); }
   .stat-amber .stat-val { color: var(--amber); }
   .stat-blue .stat-val { color: var(--blue); }
-
+ 
   /* PROGRESS */
   .progress-card {
     background: var(--bg2);
@@ -290,7 +290,7 @@
     transition: width 0.5s cubic-bezier(0.4,0,0.2,1);
   }
   .progress-sub { font-size: 10px; color: var(--text3); }
-
+ 
   /* TABS */
   .tabs {
     display: flex; gap: 0;
@@ -309,7 +309,7 @@
   }
   .tab:hover { color: var(--text2); }
   .tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 500; }
-
+ 
   /* SECTION HEADER */
   .section-header {
     display: flex; align-items: center; justify-content: space-between;
@@ -320,7 +320,7 @@
     letter-spacing: 0.08em; text-transform: uppercase;
     color: var(--text3);
   }
-
+ 
   /* LEADS */
   .lead-list { display: flex; flex-direction: column; }
   .lead-row {
@@ -343,7 +343,7 @@
   .lead-name { font-size: 13px; font-weight: 500; color: var(--text); }
   .lead-sub { font-size: 11px; color: var(--text3); }
   .lead-actions { display: flex; gap: 6px; flex-shrink: 0; }
-
+ 
   /* BADGES */
   .badge {
     font-size: 9px; font-weight: 500;
@@ -356,7 +356,7 @@
   .badge-warm { background: var(--amber-dim); color: var(--amber); }
   .badge-cold { background: var(--bg4); color: var(--text3); }
   .badge-done { background: var(--green-dim); color: var(--green); }
-
+ 
   /* BUTTONS */
   .btn {
     font-family: var(--sans); font-size: 11px; font-weight: 400;
@@ -385,7 +385,7 @@
   .btn-danger:hover { background: rgba(224,92,92,0.2); }
   .btn-sm { padding: 3px 8px; font-size: 10px; }
   .btn-icon { width: 28px; height: 28px; padding: 0; justify-content: center; }
-
+ 
   /* FORM */
   .form-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 10px; }
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
@@ -416,7 +416,7 @@
   .form-select:focus { border-color: var(--accent2); }
   .form-label { font-size: 10px; color: var(--text3); margin-bottom: 4px; display: block; }
   .form-group { display: flex; flex-direction: column; }
-
+ 
   /* SCRIPTS */
   .script-card {
     background: var(--bg3);
@@ -439,7 +439,7 @@
     color: var(--text2);
   }
   .script-footer { display: flex; justify-content: flex-end; margin-top: 10px; }
-
+ 
   /* TIP */
   .tip-card {
     background: var(--accent-dim2);
@@ -449,7 +449,7 @@
   }
   .tip-label { font-size: 9px; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase; color: var(--accent2); margin-bottom: 5px; }
   .tip-body { font-size: 11px; color: var(--text2); line-height: 1.6; }
-
+ 
   /* RIGHT PANEL HEADER */
   .rp-header {
     padding: 14px 16px;
@@ -457,7 +457,7 @@
     display: flex; align-items: center; justify-content: space-between;
   }
   .rp-title { font-size: 11px; font-weight: 500; letter-spacing: 0.05em; text-transform: uppercase; color: var(--text3); }
-
+ 
   /* PIPELINE VIEW */
   .pipeline-cols {
     display: grid;
@@ -487,7 +487,7 @@
   .pipeline-card-name { font-size: 12px; font-weight: 500; margin-bottom: 2px; }
   .pipeline-card-sub { font-size: 10px; color: var(--text3); }
   .pipeline-card-footer { margin-top: 8px; display: flex; align-items: center; gap: 6px; }
-
+ 
   /* MODAL */
   .modal-overlay {
     position: fixed; inset: 0;
@@ -511,7 +511,7 @@
   .modal-overlay.open .modal { transform: translateY(0); }
   .modal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
   .modal-title { font-family: var(--serif); font-size: 18px; }
-
+ 
   /* TOAST */
   .toast {
     position: fixed; bottom: 24px; right: 24px; z-index: 999;
@@ -528,7 +528,7 @@
   }
   .toast.show { transform: translateY(0); opacity: 1; }
   .toast-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
-
+ 
   /* EMPTY */
   .empty {
     text-align: center;
@@ -537,18 +537,18 @@
     font-size: 12px;
   }
   .empty-icon { font-size: 28px; margin-bottom: 8px; opacity: 0.4; }
-
+ 
   /* UTILS */
   .flex-center { display: flex; align-items: center; gap: 8px; }
   .ml-auto { margin-left: auto; }
   .mt-auto { margin-top: auto; }
   .w-full { width: 100%; }
   .hidden { display: none !important; }
-
+ 
   /* VIEWS */
   .view { display: none; }
   .view.active { display: flex; flex-direction: column; gap: 20px; }
-
+ 
   /* ANALYTICS */
   .analytics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   .bar-chart { display: flex; flex-direction: column; gap: 6px; }
@@ -557,7 +557,7 @@
   .bar-track { flex: 1; height: 4px; background: var(--bg4); border-radius: 2px; overflow: hidden; }
   .bar-fill { height: 100%; border-radius: 2px; background: var(--accent); transition: width 0.6s ease; }
   .bar-val { font-family: var(--mono); font-size: 10px; color: var(--text3); width: 20px; text-align: right; }
-
+ 
   /* Segment colors */
   .seg-clinica { background: rgba(59,125,216,0.15); color: #7fb0f0; }
   .seg-restaurante { background: rgba(76,175,125,0.15); color: #7fcca0; }
@@ -567,7 +567,7 @@
 </style>
 </head>
 <body>
-
+ 
 <!-- TOPBAR -->
 <header class="topbar">
   <div class="brand">
@@ -591,7 +591,7 @@
     <div class="avatar">PN</div>
   </div>
 </header>
-
+ 
 <!-- SIDEBAR -->
 <aside class="sidebar">
   <div class="sidebar-section-label">Principal</div>
@@ -608,7 +608,7 @@
     <span class="sidebar-icon">◎</span>
     Analytics
   </div>
-
+ 
   <div class="sidebar-section-label">Prospecção</div>
   <div class="sidebar-item" onclick="switchView('prospecting'); setActiveNav(this); setTimeout(()=>document.getElementById('quick-entry').scrollIntoView({behavior:'smooth'}),100)">
     <span class="sidebar-icon">+</span>
@@ -619,9 +619,9 @@
     Follow-ups
     <span class="sidebar-badge" id="sb-followup-count">0</span>
   </div>
-
+ 
   <div class="sidebar-spacer"></div>
-
+ 
   <div class="sidebar-section-label">Sistema</div>
   <div class="sidebar-item" onclick="exportData()">
     <span class="sidebar-icon">↓</span>
@@ -632,15 +632,15 @@
     Limpar dados
   </div>
 </aside>
-
+ 
 <!-- MAIN CONTENT -->
 <main class="main">
-
+ 
   <!-- PROSPECTING VIEW -->
   <div class="view active" id="view-prospecting">
     <!-- Stats -->
     <div class="stats-row" id="stats-row"></div>
-
+ 
     <!-- Progress -->
     <div class="progress-card">
       <div class="progress-header">
@@ -652,7 +652,7 @@
       </div>
       <div class="progress-sub" id="prog-sub">Segmento atual · Limeira SP</div>
     </div>
-
+ 
     <!-- Leads section -->
     <div>
       <div class="tabs">
@@ -676,7 +676,7 @@
       </div>
       <div class="lead-list" id="lead-list"></div>
     </div>
-
+ 
     <!-- Quick Entry -->
     <div class="card" id="quick-entry">
       <div class="section-header" style="margin-bottom:14px">
@@ -686,7 +686,7 @@
       <div class="form-row">
         <div class="form-group">
           <label class="form-label">Nome do negócio *</label>
-          <input class="form-input" id="qe-name" placeholder="Ex: Clínica Bella">
+          <input class="form-input" id="qe-name" placeholder="Nome do negócio">
         </div>
         <div class="form-group">
           <label class="form-label">Segmento *</label>
@@ -707,7 +707,7 @@
         </div>
         <div class="form-group">
           <label class="form-label">Cidade</label>
-          <input class="form-input" id="qe-city" placeholder="Limeira SP" value="Limeira SP">
+          <input class="form-input" id="qe-city" placeholder="Ex: Limeira SP">
         </div>
       </div>
       <div style="display:flex;justify-content:flex-end;gap:8px">
@@ -716,7 +716,7 @@
       </div>
     </div>
   </div>
-
+ 
   <!-- PIPELINE VIEW -->
   <div class="view" id="view-pipeline">
     <div class="section-header">
@@ -725,7 +725,7 @@
     </div>
     <div class="pipeline-cols" id="pipeline-board"></div>
   </div>
-
+ 
   <!-- ANALYTICS VIEW -->
   <div class="view" id="view-analytics">
     <div class="stats-row" id="analytics-stats"></div>
@@ -744,16 +744,16 @@
       <div id="recent-activity"></div>
     </div>
   </div>
-
+ 
 </main>
-
+ 
 <!-- RIGHT PANEL: Scripts -->
 <aside class="right-panel">
   <div class="rp-header">
     <span class="rp-title">Scripts · SOP 001</span>
   </div>
   <div class="right-panel-inner">
-
+ 
     <div class="script-card">
       <div class="script-tag">Script A · Primeiro contato</div>
       <div class="script-title">Gancho inicial</div>
@@ -762,7 +762,7 @@
         <button class="btn btn-ghost btn-sm" onclick="copyScript('script-a')">↗ Copiar</button>
       </div>
     </div>
-
+ 
     <div class="script-card">
       <div class="script-tag">Script B · Follow-up</div>
       <div class="script-title">Retomada</div>
@@ -771,7 +771,7 @@
         <button class="btn btn-ghost btn-sm" onclick="copyScript('script-b')">↗ Copiar</button>
       </div>
     </div>
-
+ 
     <div class="script-card">
       <div class="script-tag">Script C · Instagram DM</div>
       <div class="script-title">DM fria</div>
@@ -780,7 +780,7 @@
         <button class="btn btn-ghost btn-sm" onclick="copyScript('script-c')">↗ Copiar</button>
       </div>
     </div>
-
+ 
     <div class="script-card">
       <div class="script-tag">Script D · Proposta de valor</div>
       <div class="script-title">Fechamento</div>
@@ -789,20 +789,20 @@
         <button class="btn btn-ghost btn-sm" onclick="copyScript('script-d')">↗ Copiar</button>
       </div>
     </div>
-
+ 
     <div class="tip-card">
       <div class="tip-label">Dica Parvus</div>
       <div class="tip-body">Mencione algo específico do negócio antes de qualquer oferta. Uma observação genuína converte muito mais do que volume de mensagens.</div>
     </div>
-
+ 
     <div class="tip-card" style="background:var(--blue-dim);border-color:rgba(59,125,216,0.15)">
       <div class="tip-label" style="color:#3b7dd8">Regra de ouro</div>
       <div class="tip-body" style="color:#7fb0f0">Nunca inicie o trabalho sem receber o pagamento. É processo padrão profissional — não uma exigência sua.</div>
     </div>
-
+ 
   </div>
 </aside>
-
+ 
 <!-- MODAL: Add Lead -->
 <div class="modal-overlay" id="modal-add-lead" onclick="if(event.target===this)closeModal('add-lead')">
   <div class="modal">
@@ -813,7 +813,7 @@
     <div class="form-row">
       <div class="form-group">
         <label class="form-label">Nome do negócio *</label>
-        <input class="form-input" id="m-name" placeholder="Ex: Clínica Bella">
+        <input class="form-input" id="m-name" placeholder="Nome do negócio">
       </div>
       <div class="form-group">
         <label class="form-label">Segmento *</label>
@@ -834,7 +834,7 @@
       </div>
       <div class="form-group">
         <label class="form-label">Cidade</label>
-        <input class="form-input" id="m-city" placeholder="Limeira SP" value="Limeira SP">
+        <input class="form-input" id="m-city" placeholder="Ex: Limeira SP">
       </div>
     </div>
     <div class="form-row">
@@ -867,7 +867,7 @@
     </div>
   </div>
 </div>
-
+ 
 <!-- MODAL: Edit Lead -->
 <div class="modal-overlay" id="modal-edit-lead" onclick="if(event.target===this)closeModal('edit-lead')">
   <div class="modal">
@@ -934,13 +934,13 @@
     </div>
   </div>
 </div>
-
+ 
 <!-- TOAST -->
 <div class="toast" id="toast">
   <div class="toast-dot" id="toast-dot"></div>
   <span id="toast-msg"></span>
 </div>
-
+ 
 <script>
   // ── DATA ──────────────────────────────────────────────────────────────────
   const STORAGE_KEY = 'parvus_crm_v2';
@@ -952,39 +952,25 @@
     currentView: 'prospecting',
     editingId: null
   };
-
+ 
   function loadState() {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) { const parsed = JSON.parse(saved); state.leads = parsed.leads || []; state.dailyGoal = parsed.dailyGoal || 20; }
     } catch(e) {}
-    if (state.leads.length === 0) seedData();
     renderAll();
   }
-
+ 
   function saveState() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify({ leads: state.leads, dailyGoal: state.dailyGoal }));
   }
-
+ 
   function clearData() {
     state.leads = []; saveState(); renderAll(); toast('Dados limpos.', 'amber');
   }
-
-  function seedData() {
-    const now = Date.now();
-    state.leads = [
-      { id: uid(), name: 'Clínica Estética Bella', segment: 'Clínica', contact: '@clinicabella', city: 'Limeira SP', status: 'novo', temp: 'hot', notes: 'Feed impecável no IG', created: now },
-      { id: uid(), name: 'Studio Dermo', segment: 'Clínica', contact: '+55 19 99999-0001', city: 'Limeira SP', status: 'follow-up', temp: 'warm', notes: 'Mandei proposta na segunda', created: now - 86400000 },
-      { id: uid(), name: 'Forma & Pele', segment: 'Clínica', contact: '@formapele', city: 'Limeira SP', status: 'abordado', temp: 'cold', notes: '', created: now - 172800000 },
-      { id: uid(), name: 'Floricultura Primavera', segment: 'Floricultura', contact: '+55 19 99888-1234', city: 'Limeira SP', status: 'convertido', temp: 'hot', notes: 'Cliente fechado R$6k + manutenção', created: now - 259200000 },
-      { id: uid(), name: 'Bistrô Jardim', segment: 'Restaurante', contact: '@bistrojardim', city: 'Limeira SP', status: 'proposta', temp: 'warm', notes: 'Aguardando retorno do sócio', created: now - 345600000 },
-      { id: uid(), name: 'Atelier Mode', segment: 'Boutique', contact: '@ateliermode', city: 'Limeira SP', status: 'novo', temp: 'cold', notes: '', created: now - 432000000 },
-    ];
-    saveState();
-  }
-
+ 
   function uid() { return Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
-
+ 
   // ── VIEWS ─────────────────────────────────────────────────────────────────
   function switchView(v) {
     state.currentView = v;
@@ -995,12 +981,12 @@
     if (navEl) navEl.classList.add('active');
     renderAll();
   }
-
+ 
   function setActiveNav(el) {
     document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
     el.classList.add('active');
   }
-
+ 
   // ── RENDER ────────────────────────────────────────────────────────────────
   function renderAll() {
     renderStats();
@@ -1010,13 +996,13 @@
     renderProgress();
     updateSidebarBadges();
   }
-
+ 
   function renderStats() {
     const total = state.leads.length;
     const today = todayLeads();
     const converted = state.leads.filter(l => l.status === 'convertido').length;
     const followup = state.leads.filter(l => l.status === 'follow-up').length;
-
+ 
     const statsHTML = `
       <div class="stat-card stat-gold">
         <div class="stat-label">Leads hoje</div>
@@ -1042,12 +1028,12 @@
     const el = document.getElementById('stats-row');
     if (el) el.innerHTML = statsHTML;
   }
-
+ 
   function todayLeads() {
     const today = new Date(); today.setHours(0,0,0,0);
     return state.leads.filter(l => new Date(l.created) >= today).length;
   }
-
+ 
   function renderProgress() {
     const today = todayLeads();
     const pct = Math.min(100, Math.round((today / state.dailyGoal) * 100));
@@ -1059,7 +1045,7 @@
     const sub = document.getElementById('prog-sub');
     if (sub) sub.textContent = (seg.length ? seg.join(', ') : 'Nenhum lead hoje') + ' · ' + (state.leads[0]?.city || 'Limeira SP');
   }
-
+ 
   function filteredLeads() {
     let leads = [...state.leads];
     if (state.currentTab !== 'todos') leads = leads.filter(l => l.status === state.currentTab);
@@ -1070,27 +1056,27 @@
     }
     return leads.sort((a,b) => b.created - a.created);
   }
-
+ 
   const statusLabels = { novo:'Novo', abordado:'Abordado', 'follow-up':'Follow-up', proposta:'Proposta', convertido:'Convertido' };
   const tempClass = { cold:'badge-cold', warm:'badge-warm', hot:'badge-hot' };
   const segColors = { Clínica:'seg-clinica', Restaurante:'seg-restaurante', Floricultura:'seg-floricultura', Boutique:'seg-boutique', Outro:'seg-outro' };
-
+ 
   function initials(name) {
     return name.split(' ').slice(0,2).map(w=>w[0]).join('').toUpperCase();
   }
-
+ 
   function renderLeads() {
     const list = document.getElementById('lead-list');
     if (!list) return;
     const leads = filteredLeads();
     const title = document.getElementById('leads-section-title');
     if (title) title.textContent = leads.length + ' lead' + (leads.length !== 1 ? 's' : '');
-
+ 
     if (!leads.length) {
       list.innerHTML = `<div class="empty"><div class="empty-icon">◌</div>Nenhum lead encontrado</div>`;
       return;
     }
-
+ 
     list.innerHTML = leads.map(l => `
       <div class="lead-row" id="lead-${l.id}">
         <div class="lead-avatar ${segColors[l.segment]||'seg-outro'}">${initials(l.name)}</div>
@@ -1110,7 +1096,7 @@
       </div>
     `).join('');
   }
-
+ 
   const pipelineCols = [
     { id: 'novo', label: 'Novos', color: 'var(--blue)' },
     { id: 'abordado', label: 'Abordados', color: 'var(--text2)' },
@@ -1118,7 +1104,7 @@
     { id: 'proposta', label: 'Proposta', color: 'var(--accent)' },
     { id: 'convertido', label: 'Convertidos', color: 'var(--green)' },
   ];
-
+ 
   function renderPipeline() {
     const board = document.getElementById('pipeline-board');
     if (!board) return;
@@ -1145,7 +1131,7 @@
       `;
     }).join('');
   }
-
+ 
   function renderAnalytics() {
     const statsEl = document.getElementById('analytics-stats');
     if (!statsEl) return;
@@ -1159,7 +1145,7 @@
       <div class="stat-card stat-gold"><div class="stat-label">Taxa de conversão</div><div class="stat-val">${convRate}%</div></div>
       <div class="stat-card stat-amber"><div class="stat-label">Leads quentes</div><div class="stat-val">${hot}</div></div>
     `;
-
+ 
     // Segments chart
     const segs = {};
     state.leads.forEach(l => { segs[l.segment||'Outro'] = (segs[l.segment||'Outro']||0)+1; });
@@ -1171,7 +1157,7 @@
         <span class="bar-val">${v}</span>
       </div>
     `).join('') || '<div style="color:var(--text3);font-size:11px">Sem dados</div>';
-
+ 
     // Status chart
     const stats2 = {};
     state.leads.forEach(l => { stats2[l.status] = (stats2[l.status]||0)+1; });
@@ -1183,7 +1169,7 @@
         <span class="bar-val">${v}</span>
       </div>
     `).join('') || '<div style="color:var(--text3);font-size:11px">Sem dados</div>';
-
+ 
     // Recent activity
     const recent = [...state.leads].sort((a,b) => b.created - a.created).slice(0,6);
     document.getElementById('recent-activity').innerHTML = recent.map(l => `
@@ -1197,14 +1183,14 @@
       </div>
     `).join('') || '<div class="empty">Nenhuma atividade</div>';
   }
-
+ 
   function updateSidebarBadges() {
     const pipeEl = document.getElementById('sb-pipeline-count');
     const fuEl = document.getElementById('sb-followup-count');
     if (pipeEl) pipeEl.textContent = state.leads.length;
     if (fuEl) fuEl.textContent = state.leads.filter(l => l.status === 'follow-up').length;
   }
-
+ 
   // ── ACTIONS ───────────────────────────────────────────────────────────────
   function setLeadTab(tab, el) {
     state.currentTab = tab;
@@ -1212,22 +1198,22 @@
     el.classList.add('active');
     renderLeads();
   }
-
+ 
   function filterBySegment(val) {
     state.currentSegment = val;
     renderLeads();
   }
-
+ 
   function filterByStatus(status) {
     state.currentTab = status;
     renderLeads();
   }
-
+ 
   function handleGlobalSearch(val) {
     state.searchQuery = val;
     renderLeads();
   }
-
+ 
   function addLead(data) {
     const lead = {
       id: uid(),
@@ -1246,7 +1232,7 @@
     toast('Lead "' + lead.name + '" capturado!', 'green');
     return lead;
   }
-
+ 
   function addLeadFromQuickEntry() {
     const name = document.getElementById('qe-name').value;
     const segment = document.getElementById('qe-segment').value;
@@ -1259,12 +1245,12 @@
     });
     clearQuickEntry();
   }
-
+ 
   function clearQuickEntry() {
     ['qe-name','qe-contact'].forEach(id => document.getElementById(id).value = '');
     document.getElementById('qe-segment').value = '';
   }
-
+ 
   function addLeadFromModal() {
     const name = document.getElementById('m-name').value;
     const segment = document.getElementById('m-segment').value;
@@ -1282,7 +1268,7 @@
     ['m-name','m-contact','m-notes'].forEach(id => document.getElementById(id).value = '');
     document.getElementById('m-segment').value = '';
   }
-
+ 
   function openEditModal(id) {
     const lead = state.leads.find(l => l.id === id);
     if (!lead) return;
@@ -1296,7 +1282,7 @@
     document.getElementById('e-notes').value = lead.notes;
     openModal('edit-lead');
   }
-
+ 
   function saveEditLead() {
     const lead = state.leads.find(l => l.id === state.editingId);
     if (!lead) return;
@@ -1310,14 +1296,14 @@
     saveState(); renderAll(); closeModal('edit-lead');
     toast('Lead atualizado.', 'green');
   }
-
+ 
   function deleteCurrentLead() {
     if (!confirm('Deletar este lead?')) return;
     state.leads = state.leads.filter(l => l.id !== state.editingId);
     saveState(); renderAll(); closeModal('edit-lead');
     toast('Lead deletado.', 'amber');
   }
-
+ 
   function updateStatus(id, status) {
     const lead = state.leads.find(l => l.id === id);
     if (!lead) return;
@@ -1325,19 +1311,19 @@
     saveState(); renderAll();
     toast('Status atualizado para ' + statusLabels[status], 'blue');
   }
-
+ 
   function openWhatsApp(contact, name) {
     const num = contact.replace(/\D/g, '');
     const msg = encodeURIComponent('Oi ' + name + ', vi o trabalho de vocês e tenho uma ideia que pode te interessar!');
     window.open('https://wa.me/' + num + '?text=' + msg, '_blank');
   }
-
+ 
   function copyScript(id) {
     const el = document.getElementById(id);
     if (!el) return;
     navigator.clipboard.writeText(el.textContent.trim()).then(() => toast('Script copiado!', 'green'));
   }
-
+ 
   function exportData() {
     const headers = ['Nome','Segmento','Contato','Cidade','Status','Temperatura','Notas','Data'];
     const rows = state.leads.map(l => [
@@ -1351,11 +1337,11 @@
     a.click();
     toast('CSV exportado!', 'green');
   }
-
+ 
   // ── MODAL ─────────────────────────────────────────────────────────────────
   function openModal(id) { document.getElementById('modal-' + id)?.classList.add('open'); }
   function closeModal(id) { document.getElementById('modal-' + id)?.classList.remove('open'); }
-
+ 
   // ── TOAST ─────────────────────────────────────────────────────────────────
   let toastTimer;
   function toast(msg, type = 'green') {
@@ -1367,9 +1353,10 @@
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => el.classList.remove('show'), 2400);
   }
-
+ 
   // ── INIT ──────────────────────────────────────────────────────────────────
   loadState();
 </script>
 </body>
 </html>
+ 
